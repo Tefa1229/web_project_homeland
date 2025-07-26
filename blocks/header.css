@@ -29,9 +29,10 @@
   margin: 32px auto 0;
 }
 .header__image {
-  max-width: 984px;
+  max-width: 100%;
   margin-top: 64px;
 }
+
 @media screen and (max-width: 768px) {
   .header__logo {
     padding-top: 30px;
@@ -40,32 +41,29 @@
     font-size: 75px;
   }
   .header__lead {
-    max-width: 720px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .header__lead-title {
     font-size: 75px;
     line-height: 79px;
-    max-width: 530px;
+    max-width: 50%;
   }
   .header__lead-subtittle {
     font-size: 30px;
     line-height: 36px;
   }
-  .intro__title {
-    max-width: 707px;
+  .intro {
+    max-width: calc(100% - 48px);
   }
 }
+
 @media screen and (max-width: 320px) {
   .header__logo {
     width: 188px;
     padding-top: 20px;
   }
-  .header__lead {
-    max-width: 288px;
-  }
   .header__lead-title {
-    max-width: 228px;
     font-size: 40px;
     line-height: 44px;
     margin-top: 50px;
@@ -77,18 +75,5 @@
   }
   .header__image {
     margin-top: 40px;
-  }
-  .content .intro {
-    max-width: 288px;
-    margin: 64px auto 0;
-  }
-  .content .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-  .content .intro__subtitle,
-  .content .intro__autor {
-    font-size: 24px;
-    line-height: 30px;
   }
 }
