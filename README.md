@@ -1,3 +1,7 @@
 # web_project_homeland
 
-Este proyecto es realizado con HTML5 y CSS con sus respectivas medidas responsivas para cada punto de ruptura. Todo esto siguiendo la metodologia BEM, con sus bloques de codigo correspontientes para cada fragmento de codigo de la pagina presentada.
+Este proyecto fue desarrollado utilizando HTML5 y CSS, incorporando medidas responsivas para cada punto de ruptura. Se siguió la metodología BEM (Block, Element, Modifier), estructurando el código en bloques correspondientes para cada sección de la página presentada.
+
+Puedes visualizarlo en el siguiente enlace de GitHub Pages:
+
+https://tefa1229.github.io/web_project_homeland/
