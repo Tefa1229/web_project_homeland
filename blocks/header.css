@@ -52,7 +52,7 @@
   .header__lead-title {
     font-size: 75px;
     line-height: 79px;
-    max-width: 50%;
+    max-width: 80%;
   }
   .header__lead-subtittle {
     font-size: 30px;
@@ -72,7 +72,6 @@
     font-size: 40px;
     line-height: 44px;
     margin-top: 50px;
-    max-width: 60%;
   }
   .header__lead-subtittle {
     font-size: 16px;
