@@ -1,6 +1,9 @@
 .intro {
+  max-width: 984px;
+  margin: 98px auto 0;
+}
+.intro__container {
   max-width: 830px;
-  margin-top: 98px;
 }
 .intro__title {
   font-weight: 900;
