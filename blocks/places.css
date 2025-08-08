@@ -4,7 +4,7 @@
 }
 .place {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   row-gap: 48px;
   column-gap: 40px;
   margin-bottom: 80px;
@@ -16,13 +16,13 @@
   align-self: end;
 }
 .place__title {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
 }
 .place__category {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -32,13 +32,13 @@
   margin-bottom: 8px;
 }
 .place__name-job {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
 }
 .place__paragraph {
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
@@ -73,4 +73,22 @@
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
+}
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: calc(100% - 48px);
+    overflow: hidden;
+  }
+  .place {
+    margin-bottom: 72px;
+    row-gap: 48px;
+    column-gap: 28px;
+  }
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
 }

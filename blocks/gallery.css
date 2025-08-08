@@ -5,3 +5,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
+.gallery__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 64px auto 88px;
+  }
+}
