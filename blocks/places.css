@@ -66,6 +66,8 @@
   font-size: 18px;
   line-height: 100%;
   width: 290px;
+  border-radius: 4px;
+  text-align: center;
 }
 .place__button:hover {
   background: linear-gradient(
@@ -90,5 +92,35 @@
   }
   .place__paragraph {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 100%;
+  }
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    margin-bottom: 50px;
+  }
+  .places .place__heading {
+    margin: 0 16px;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .place__button {
+    max-width: calc(100% - 24px);
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 100%;
   }
 }

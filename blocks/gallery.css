@@ -1,6 +1,6 @@
 .gallery {
   max-width: 1184px;
-  margin: 118px auto 92px;
+  margin: 0 auto 92px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
@@ -11,8 +11,16 @@
 
 @media screen and (max-width: 768px) {
   .gallery {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
     grid-template-columns: repeat(2, 1fr);
-    margin: 64px auto 88px;
+    margin-bottom: 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .gallery {
+    max-width: calc(100% - 32px);
+    grid-template-columns: 1fr;
+    margin-bottom: 62px;
+    gap: 12px;
   }
 }
