@@ -2,26 +2,26 @@
   max-width: 984px;
   margin: 0 auto;
 }
-.place {
+.places .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 48px;
   column-gap: 40px;
   margin-bottom: 80px;
 }
-.place:last-child {
+.places .place:last-child {
   margin-bottom: 0;
 }
-.place__heading {
+.places .place__heading {
   align-self: end;
 }
-.place__title {
+.places .place__title {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
 }
-.place__category {
+.places .place__category {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -31,32 +31,32 @@
   color: #aaa;
   margin-bottom: 8px;
 }
-.place__name-job {
+.places .place__name-job {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
 }
-.place__paragraph {
+.places .place__paragraph {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   margin-bottom: 25px;
 }
-.place__paragraph:last-child {
+.places .place__paragraph:last-child {
   margin-bottom: 0;
 }
-.place__image-place {
+.places .place__image-place {
   width: 100%;
   object-fit: cover;
   box-shadow: 10px 10px 25px 0px #00000080;
   background-color: #000;
 }
-.place__image-place:hover {
+.places .place__image-place:hover {
   opacity: 50%;
 }
-.place__button {
+.places .place__button {
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
   padding: 13px 20px;
   color: #fff;
@@ -69,7 +69,7 @@
   border-radius: 4px;
   text-align: center;
 }
-.place__button:hover {
+.places .place__button:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
@@ -81,16 +81,16 @@
     max-width: calc(100% - 48px);
     overflow: hidden;
   }
-  .place {
+  .places .place {
     margin-bottom: 72px;
     row-gap: 48px;
     column-gap: 28px;
   }
-  .place__title {
+  .places .place__title {
     font-size: 42px;
     line-height: 46px;
   }
-  .place__paragraph {
+  .places .place__paragraph {
     font-size: 16px;
   }
 }
@@ -98,7 +98,7 @@
   .places {
     max-width: 100%;
   }
-  .place {
+  .places .place {
     grid-template-columns: 1fr;
     row-gap: 30px;
     margin-bottom: 50px;
@@ -107,17 +107,17 @@
     margin: 0 16px;
   }
 
-  .place__title {
+  .places .place__title {
     font-size: 32px;
     line-height: 35px;
     margin: 0 16px;
   }
-  .place__paragraph {
+  .places .place__paragraph {
     font-size: 16px;
     margin-left: 16px;
     margin-right: 16px;
   }
-  .place__button {
+  .places .place__button {
     max-width: calc(100% - 24px);
     margin: 0 auto;
     font-size: 14px;
